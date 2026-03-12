@@ -118,3 +118,35 @@ footer {
     width: 420px ;
 }
 
+
+@media (max-width: 600px) {
+
+
+    .titulo {
+        position: absolute;
+        top:12%;
+        left:50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .timer{
+        top:25%;
+    }
+
+    #opiniao-box{
+        left: 48%;
+        top:40%;
+        width: 360px ;
+        height: 52px;
+        text-align: center;
+    }
+
+
+    #opiniao-buttons{
+        left:48%;
+        top:50%;
+        width: 360px;
+        height:28px;
+    }
+
+}
